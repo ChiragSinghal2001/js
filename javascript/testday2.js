@@ -89,12 +89,41 @@ const { log } = require("console");
 // const real_another_array = another_array.flat(Infinity)
 // console.log(real_another_array);
 
-console.log(Array.isArray("Hitesh"))
-console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting
+// console.log(Array.isArray("Hitesh"))
+// console.log(Array.from("Hitesh"))
+// console.log(Array.from({name: "hitesh"})) // interesting
 
-let score1 = 100
-let score2 = 200
-let score3 = 300
+// let score1 = 100
+// let score2 = 200
+// let score3 = 300
 
-console.log(Array.of(score1, score2, score3));
+// console.log(Array.of(score1, score2, score3));
+
+// (function user1() {
+//     let username1="hhujh"
+//      console.log(this.username1);
+//  })();
+
+
+
+//  ( user = ()=> {
+//     let username="hhujh"
+//      console.log(this.username);
+//  })()
+
+// falsy value
+
+// false,"",0,-0,null,Undefined,BigInt 0n,NaN
+
+//truthy Values
+
+// true," ",[],{},function(){},"0",'false'
+
+
+if("0"){
+    console.log("true hai")
+}
+else{
+    console.log("false hai")
+
+}
