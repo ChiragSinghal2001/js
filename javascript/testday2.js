@@ -120,10 +120,53 @@ const { log } = require("console");
 // true," ",[],{},function(){},"0",'false'
 
 
-if("0"){
-    console.log("true hai")
-}
-else{
-    console.log("false hai")
+// if("0"){
+//     console.log("true hai")
+// }
+// else{
+//     console.log("false hai")
 
+// }
+
+// let score = "hitesh"
+
+// //console.log(typeof score);
+// //console.log(typeof(score));
+
+// let valueInNumber = Number(score)
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
+
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+// console.log(1 + 2 + 2);
+
+// console.log(+true);
+// console.log(+" ");
+
+// console.log(null > 0);
+// console.log(null == 0);
+// console.log(null >= 0);
+
+// console.log(undefined == 0);
+// console.log(undefined > 0);
+// console.log(undefined < 0);
+// console.log(typeof myDate);
+// console.log(myCreatedDate.toLocaleString());
+
+// let myTimeStamp = Date.now()
+// let myDate = new Date()
+// console.log(myDate.toLocaleString())
+// console.log(myDate.getDate())
+
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
+
+// console.log(id == anotherId);
+
+
+const myFunction = ()=>{
+    console.log("Hello world");
 }
+
+myFunction()
