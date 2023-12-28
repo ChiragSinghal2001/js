@@ -75,7 +75,7 @@ const temperature = 41
 const emptyObj = {}
 
 if (Object.keys(emptyObj).length === 0) {
-    console.log("Object is empty");
+    // console.log("Object is empty");
 }
 
 // Nullish Coalescing Operator (??): null undefined
@@ -88,11 +88,57 @@ val1 = null ?? 10 ?? 20
 
 
 
-console.log(val1);
+// console.log(val1);
 
 // Terniary Operator
 
 // condition ? true : false
 
-const iceTeaPrice = 100
-iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+// const iceTeaPrice = 100
+// iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
+
+// for(let ijk=0;ijk<10;ijk++){
+//     console.log(ijk);
+// }
+
+// const myarr=["ddg","dsgg","dgdvcxv"]
+
+// for (const num of myarr) {
+//     console.log(num);
+// }
+// Map
+
+const map=new Map()
+map.set("a","1")
+map.set("b","2")
+map.set("c","1")
+
+// console.log(map)
+
+for (const [key,value] of map) {
+    console.log(key ,":-",value)
+}
+
+// const myarr=["ddg","dsgg","dgdvcxv"]
+const myarr=[{
+    name:"ch",
+    class:"b"
+},
+{
+    name:"chi",
+    class:"bi"
+},
+{
+    name:"chir",
+    class:"bir"
+},]
+
+myarr.forEach((bh)=>{
+    console.log(bh);
+})
+
+const nums=[1,2,3,4,5,6,7,8,9]
+
+const newnums= nums.filter((item)=> {return item>3})
+
+console.log(newnums)
