@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JAI SHREE RAM</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const newcreate= ()=>{
+        const newDiv = document.createElement("h1");
+        newDiv.innerHTML = "Radhe Radhe";
+    document.body.appendChild(newDiv);
+        console.log("Radhe Radhe")
+    }
+    const adding = setTimeout(newcreate,2000);
+    document.querySelector("#stop").addEventListener('click',function(){
+    clearTimeout(adding);
+    })
+</script>
+</html>
