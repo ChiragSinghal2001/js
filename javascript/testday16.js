@@ -12,8 +12,13 @@ const promisestart = new Promise(function(resolve,reject){
 })
 
 promisestart.then(
-    (result)=>{console.log(result)
+    (result)=>{console.log(result , `${result}` )
     return result.username},
-).then((username)=>{console.log(username)}).catch(function(error){
+)
+.then((username)=>{console.log(username )})
+.catch(function(error){
     console.log(`We got a problem! ${error}`)
+})
+.finally(()=>{
+    console.log("This is finally block")
 })
